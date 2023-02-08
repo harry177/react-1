@@ -4,7 +4,7 @@ import classes from "./Profile.module.css";
 
 const Profile = () => {
   return (
-    <div className={classes.content}>
+    <div>
       <div>
         <img
           src="https://www.ghimprove.com/_blog/images/posts/hello-world/mountain.jpg"

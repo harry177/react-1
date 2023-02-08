@@ -2,14 +2,18 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header"
 import Navbar from "./components/Navbar/Navbar";
-import Profile from "./components/Profile/Profile";
+//import Profile from "./components/Profile/Profile";
+import { Dialogs } from "./components/Dialogs/Diaslogs";
 
 function App() {
   return (
     <div className="app__wrapper">
       <Header />
       <Navbar />
-      <Profile />
+     {/* <Profile /> */}
+     <div className="app__wrapper__content">
+       <Dialogs />
+     </div>
     </div>
   );
 }

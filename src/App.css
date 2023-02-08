@@ -9,3 +9,8 @@
     "h h"
     "n c";
 }
+
+.app__wrapper__content {
+  grid-area: c;
+  background-color: darksalmon;
+}
