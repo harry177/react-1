@@ -3,10 +3,10 @@
   background-color: blanchedalmond;
 }
 
-.item {
+.item a {
   color: red;
 }
 
-.item.active {
-  color: purple;
+.item a.active {
+  color: chartreuse;
 }
